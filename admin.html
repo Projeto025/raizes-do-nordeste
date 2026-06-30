@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo | Raízes do Nordeste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+<body>
+
+    <header class="topo-plataforma">
+        <div class="identidade-marca">
+            <h2>RAÍZES <span>DO NORDESTE</span></h2>
+        </div>
+        <nav class="menu-navegacao">
+            <a href="index.html">Início</a>
+            <a href="index.html#unidades">Unidades</a>
+            <a href="index.html#promocoes">Campanhas</a>
+            <a href="login.html">Sair</a>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+        <hr class="divisor-secao">
+        
+        <h2 class="titulo-categoria-unidade">Painel do Administrador</h2>
+
+        <section class="box-fidelidade-carrinho">
+            <h3>Campanha Atual</h3>
+            <p><strong>Nome:</strong> Inauguração</p>
+            <p><strong>Status:</strong> Ativa</p>
+            <p><strong>Regras:</strong> A cada R$ 5 em compras ganha 1 ponto.</p>
+        </section>
+
+        <hr class="divisor-secao">
+
+        <h2 class="titulo-categoria-unidade">Estatísticas de Vendas Mensais</h2>
+        
+        <section class="grade-produtos">
+            
+            <div class="card-produto card-unidade">
+                <h3>Pratos Mais Vendidos</h3>
+                <p class="descricao-prato">Cuscuz com Carne de Sol</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">142 pedidos</span>
+                </div>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <h3>Bebidas Mais Vendidas</h3>
+                <p class="descricao-prato">Cajuína Nordestina</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">178 pedidos</span>
+                </div>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <h3>Sobremesas Mais Vendidas</h3>
+                <p class="descricao-prato">Cocada Baiana</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">345 pedidos</span>
+                </div>
+            </div>
+
+        </section>
+
+        <hr class="divisor-secao">
+
+        <h2 class="titulo-categoria-unidade">Nova Campanha</h2>
+        
+        <section>
+            <form onsubmit="return false;">
+                
+                <div>
+                    <label>Título da Campanha:</label>
+                    <input class="titulo-camp" type="text" placeholder="Ex: Sexta do Suco">
+                </div>
+
+                <div>
+                    <label>Unidade Alvo:</label>
+                    <label class="grupo-radio">
+                        <input type="radio" name="unidade" checked> <span>Ambas</span>
+                    </label>
+                    <label class="grupo-radio">
+                        <input type="radio" name="unidade"> <span>Salvador</span>
+                    </label>
+                    <label class="grupo-radio">
+                        <input type="radio" name="unidade"> <span>Recife</span>
+                    </label>
+                </div>
+
+                <div>
+                    <label>Descrição da Regra:</label>
+                    <textarea class="teste" placeholder="Detalhes da campanha..."></textarea>
+                </div>
+
+                <button class="btn-publi-camp">
+                    Publicar Campanha
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>

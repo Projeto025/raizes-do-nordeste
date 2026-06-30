@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil | Raízes do Nordeste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <header class="topo-plataforma">
+        <div class="identidade-marca">
+            <h2>RAÍZES DO NORDESTE</h2>
+        </div>
+        <nav class="menu-navegacao">
+            <a href="index.html">Início</a>
+            <a href="#" id="btn-logout" class="link-sair">Sair</a>
+        </nav>
+    </header>
+
+    <main class="container-principal">
+        <section class="conteudo-introducao">
+            <h1 class="titulo-marca">Bem-vindo à sua Área Exclusiva</h1>
+            <p class="texto-institucional">
+                Aqui você confere suas informações cadastrais e acompanha seu saldo no nosso Programa de Fidelidade.
+            </p>
+        </section>
+
+        <section class="card-login-customizado">
+            <div class="cabecalho-formulario">
+                <h3>Dados do Cliente</h3>
+                <p class="subtitulo-formulario">Sua conta na rede Raízes do Nordeste</p>
+            </div>
+
+            <div class="dados-perfil">
+                <div class="grupo-campo">
+                    <label>Nome Completo:</label>
+                    <p id="perfil-nome">Carregando...</p>
+                </div>
+
+                <div class="grupo-campo">
+                    <label>E-mail de Acesso:</label>
+                    <p id="perfil-email">Carregando...</p>
+                </div>
+
+                <div class="grupo-campo">
+                    <label>Telefone / WhatsApp:</label>
+                    <p id="perfil-telefone">Carregando...</p>
+                </div>
+            </div>
+
+            <div class="box-fidelidade">
+                <h4>Seus Pontos de Fidelidade</h4>
+                <p id="perfil-pontos">0</p>
+                <small>Cada ponto vale desconto em suas próximas compras!</small>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="rodape-plataforma">
+        <p>&copy; 2026 Rede Raízes do Nordeste. Todos os direitos reservados.</p>
+        <nav class="links-auxiliares">
+            <a href="privacidade.html">Privacy e LGPD</a>
+        </nav>
+    </footer>
+
+    <script src="usuario.js"></script>
+    <script src="authcheck.js"></script>
+</body>
+</html>

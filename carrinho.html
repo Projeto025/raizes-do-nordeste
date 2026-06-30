@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho | Raízes do Nordeste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <header class="topo-plataforma">
+        <div class="identidade-marca">
+            <h2>RAÍZES <span>DO NORDESTE</span></h2>
+        </div>
+        <nav class="menu-navegacao">
+            <a href="index.html">Início</a>
+            <a href="login.html" id="link-acesso">Entrar</a>
+        </nav>
+    </header>
+
+    <main class="container-principal">
+        <section class="conteudo-introducao">
+            <h1 class="titulo-marca">Fechamento do Pedido</h1>
+            <p class="texto-institucional">
+                Confira seus itens selecionados, aplique seus benefícios de fidelidade e escolha a forma de pagamento para retirada rápida.
+            </p>
+        </section>
+
+        <section id="secao-carrinho" class="card-login-customizado">
+            <div class="cabecalho-formulario">
+                <h3>Itens Selecionados</h3>
+            </div>
+
+            <div id="lista-itens-carrinho">
+                <p class="carrinho-vazio-msg">Seu carrinho está vazio. Vá até o cardápio de uma de nossas unidades para adicionar pratos deliciosos!</p>
+            </div>
+
+            <div class="acoes-carrinho">
+                <button id="btn-limpar-carrinho" class="btn-secundario">
+                    Limpar Carrinho
+                </button>
+            </div>
+
+            <div class="resumo-valores">
+                <div class="linha-resumo">
+                    <span>Subtotal:</span>
+                    <strong id="valor-subtotal">R$ 0,00</strong>
+                </div>
+                
+                <div id="bloco-resgate-fidelidade" class="box-fidelidade-carrinho">
+                    <h4>Programa de Fidelidade</h4>
+                    <p>Seu saldo atual: <strong id="saldo-pontos-carrinho">0</strong> pontos.</p>
+                    <div class="grupo-campo-checkbox">
+                        <input type="checkbox" id="chk-usar-pontos">
+                        <label for="chk-usar-pontos">Desejo utilizar 10 pontos por R$ 10,00 de desconto</label>
+                    </div>
+                </div>
+
+                <div class="linha-resumo desconto-linha">
+                    <span>Desconto Aplicado:</span>
+                    <strong id="valor-desconto">- R$ 0,00</strong>
+                </div>
+                <hr>
+                <div class="linha-resumo total-linha">
+                    <span>Total Geral:</span>
+                    <strong id="valor-total">R$ 0,00</strong>
+                </div>
+                <div class="linha-resumo pontos-ganhos-linha">
+                    <span>Com essa compra você ganhará:</span>
+                    <strong id="pontos-a-ganhar">0 pontos</strong>
+                </div>
+            </div>
+
+            <div class="formas-pagamento">
+                <h4>Forma de Pagamento (Retirada Rápida)</h4>
+                <div class="grupo-radio">
+                    <input type="radio" id="pag-pix" name="forma-pagamento" value="Pix" checked>
+                    <label for="pag-pix">Pix (Aprovação Instantânea)</label>
+                </div>
+                <div class="grupo-radio">
+                    <input type="radio" id="pag-cartao" name="forma-pagamento" value="Cartão de Crédito">
+                    <label for="pag-cartao">Cartão de Crédito</label>
+                </div>
+            </div>
+
+            <button id="btn-finalizar-compra" class="btn-acao-primaria">Confirmar e Pagar</button>
+        </section>
+
+        <section id="secao-status-pedido" class="card-login-customizado visualmente-oculto">
+            <div class="cabecalho-formulario">
+                <h3>Acompanhe seu Pedido</h3>
+                <p class="subtitulo-formulario">Código do Pedido: <strong id="codigo-pedido">#2026-001</strong></p>
+            </div>
+
+            <div class="linha-tempo-status">
+                <div class="passo-status ativo" id="status-recebido">
+                    <div class="circulo-status">1</div>
+                    <span>Recebido</span>
+                </div>
+                <div class="passo-status" id="status-preparacao">
+                    <div class="circulo-status">2</div>
+                    <span>Em Preparação</span>
+                </div>
+                <div class="passo-status" id="status-pronto">
+                    <div class="circulo-status">3</div>
+                    <span>Pronto para Retirada</span>
+                </div>
+            </div>
+
+            <div class="box-instrucoes-retirada">
+                <p><strong>Unidade de Retirada:</strong> <span id="unidade-selecionada">Salvador</span></p>
+                <p class="aviso-retirada">Dirija-se ao balcão de pick-up assim que o status mudar para "Pronto para Retirada".</p>
+            </div>
+
+            <a href="index.html" class="btn-acao-primaria text-center-link">Voltar para a Página Inicial</a>
+        </section>
+    </main>
+
+    <footer class="rodape-plataforma">
+        <p>&copy; 2026 Rede Raízes do Nordeste. Todos os direitos reservados.</p>
+        <nav class="links-auxiliares">
+            <a href="privacidade.html">Privacidade e LGPD</a>
+        </nav>
+    </footer>
+
+    <script src="authcheck.js"></script>
+    <script src="carrinho.js"></script>
+</body>
+</html>

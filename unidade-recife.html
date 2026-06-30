@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Recife | Raízes do Nordeste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <header class="topo-plataforma">
+        <div class="identidade-marca">
+            <h2>RAÍZES <span>DO NORDESTE</span></h2>
+        </div>
+        <nav class="menu-navegacao">
+            <a href="index.html">Início</a>
+            <a href="carrinho.html" id="item-carrinho" class="link-carrinho-topo">Carrinho</a>
+            <a href="login.html" id="link-acesso">Entrar</a>
+        </nav>
+    </header>
+
+    <main class="container-principal">
+        
+        <section class="hero-unidade-especifica">
+            <div class="conteudo-texto-unidade">
+                <h1 class="titulo-principal">Unidade Recife</h1>
+                <p class="texto-unidade">Localizada na charmosa região de Boa Viagem, nossa unidade combina a energia de Recife com os sabores mais autênticos do Nordeste.
+                    Em um espaço acolhedor e convidativo, oferecemos uma experiência especial para saborear pratos tradicionais como baião de dois e outras delícias regionais.
+                    Escolha abaixo para retirada rápida na unidade e aproveite os sabores locais.</p>
+            </div>
+            <div class="conteudo-imagem-unidade">
+                <img src="imagens/unidaderecife.png" alt="Raízes do Nordeste Recife" class="imagem-hero-unidade">
+            </div>
+        </section>
+
+        <hr class="divisor-secao">
+        
+        <h2 class="titulo-categoria-unidade">Pratos Deliciosos</h2>
+        <section class="grade-produtos">
+            
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div> 
+                
+                <h3>Cuscuz com Carne de Sol</h3>
+                <img src="imagens/cuscuzsol.jpg" alt="Cuscuz com Carne de Sol" class="imagem-prato">
+                <p class="descricao-prato">Cuscuz de milho cozido no vapor, acompanhado de carne de sol desfiada acebolada na manteiga de garrafa e queijo coalho grelhado.</p>
+                
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 28,90</span>
+                    <span class="pontos">+ 5 pontos</span>
+                </div>
+                <button
+                class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Cuscuz com Carne de Sol"
+                data-preco="28.90"
+                data-unidade="Recife">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                
+                <h3>Bolo de Rolo</h3>
+                <img src="imagens/boloderolo.png" alt="Bolo de Rolo" class="imagem-prato">
+                <p class="descricao-prato">Bolo de rolo finíssimo com camadas de massa delicada e goiabada cremosa, enrolado e polvilhado com açúcar refinado suave.</p>
+                
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 16,00</span>
+                    <span class="pontos">+ 3 pontos</span>
+                </div>
+                <button
+                class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Bolo de Rolo"
+                data-preco="16.00"
+                data-unidade="Recife">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                
+                <h3>Baião de Dois</h3>
+                <img src="imagens/baiao.jpg" alt="Baião de Dois" class="imagem-prato">
+                <p class="descricao-prato">Arroz com feijão de corda cremoso, misturado a queijo coalho dourado, carne seca desfiada e manteiga de garrafa perfumada.</p>
+                
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 34,90</span>
+                    <span class="pontos">+ 6 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Baião de Dois"
+                data-preco="34.90"
+                data-unidade="Recife">Adicionar ao Pedido
+                </button>
+            </div>
+
+        </section>
+
+        <h2 class="titulo-categoria-unidade">Bebidas Regionalíssimas</h2>
+        <section class="grade-produtos">
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Suco de Pitanga</h3>
+                <img src="imagens/sucopitanga.png" alt="Suco de Pitanga" class="imagem-prato">
+                <p class="descricao-prato">Suco preparado com polpa vibrante de pitanga colhida em Recife trazendo aroma tropical marcante.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 11,00</span>
+                    <span class="pontos">+ 2 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Suco de Pitanga"
+                data-preco="11.00"
+                data-unidade="Recife">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Garapa de Cana</h3>
+                <img src="imagens/garapacana.png" alt="Garapa de Cana com Limão" class="imagem-prato">
+                <p class="descricao-prato">Garapa de cana com limão espremido, trazendo equilíbrio entre doçura natural e frescor irresistível em cada gole.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 10,00</span>
+                    <span class="pontos">+ 2 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Garapa de Cana com Limão"
+                data-preco="10.00"
+                data-unidade="Recife">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Suco de Cajá</h3>
+                <img src="imagens/sucocaja.png" alt="Suco de Cajá" class="imagem-prato">
+                <p class="descricao-prato">Suco de cajá feito rico em sabor tropical, bebida naturalmente refrescante e servida bem gelada para alegrar você.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 8,50</span>
+                    <span class="pontos">+ 1 ponto</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Suco de Cajá"
+                data-preco="8.50"
+                data-unidade="Recife">Adicionar ao Pedido
+                </button>
+            </div>
+
+        </section>
+
+        <h2 class="titulo-categoria-unidade">Sobremesas</h2>
+        <section class="grade-produtos">
+            
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Cartola Pernambucana</h3>
+                <img src="imagens/cartola.png" alt="Cartola Pernambucana" class="imagem-prato">
+                <p class="descricao-prato">Sobremesa pernambucana feita com banana, queijo, canela e açúcar, combinando sabores marcantes em uma experiência irresistível.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 16,00</span>
+                    <span class="pontos">+ 3 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Cartola Pernambucana"
+                data-preco="16.00"
+                data-unidade="Recife">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Bolo Souza Leão</h3>
+                <img src="imagens/bolosouza.png" alt="Bolo Souza Leão" class="imagem-prato">
+                <p class="descricao-prato">Receita tradicional preparada com massa de mandioca, açúcar, manteiga e leite de coco, resultando em textura macia e sabor marcante.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 14,50</span>
+                    <span class="pontos">+ 2 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Bolo Souza Leão"
+                data-preco="14.50"
+                data-unidade="Recife">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Bolo Pé de Moleque</h3>
+                <img src="imagens/bolope.png" alt="Bolinho de Estudante" class="imagem-prato">
+                <p class="descricao-prato">Decilioso bolo nordestino preparado com massa de mandioca, castanha, manteiga e especiarias, trazendo textura densa e sabor marcante.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 14,00</span>
+                    <span class="pontos">+ 2 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Bolo Pé de Moleque"
+                data-preco="14.00"
+                data-unidade="Recife">Adicionar ao Pedido
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape-plataforma">
+        <p>&copy; 2026 Rede Raízes do Nordeste. Todos os direitos reservados.</p>
+        <nav class="links-auxiliares">
+            <a href="privacidade.html">Privacidade e LGPD</a>
+        </nav>
+    </footer>
+    
+    <script src="authcheck.js"></script>
+    <script src="cardapio.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Salvador | Raízes do Nordeste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <header class="topo-plataforma">
+        <div class="identidade-marca">
+            <h2>RAÍZES <span>DO NORDESTE</span></h2>
+        </div>
+        <nav class="menu-navegacao">
+            <a href="index.html">Início</a>
+            <a href="carrinho.html" id="item-carrinho" class="link-carrinho-topo">Carrinho</a>
+            <a href="login.html" id="link-acesso">Entrar</a>
+        </nav>
+    </header>
+
+    <main class="container-principal">
+        
+        <section class="hero-unidade-especifica">
+            <div class="conteudo-texto-unidade">
+                <h1 class="titulo-principal">Unidade Salvador</h1>
+                <p class="texto-unidade">Localizada no coração do centro histórico, nossa unidade no Pelourinho combina o axé da Bahia com os sabores mais autênticos do Nordeste.
+                    Em um casarão colonial totalmente revitalizado, oferecemos um ambiente acolhedor, perfeito para saborear um acarajé quentinho ou um bobó cremoso.
+                    Escolha seus itens abaixo para retirada rápida na unidade e aproveite nossa terra!</p>
+            </div>
+            <div class="conteudo-imagem-unidade">
+                <img src="imagens/unidadesalvador.png" alt="Raízes do Nordeste Salvador" class="imagem-hero-unidade">
+            </div>
+        </section>
+
+        <hr class="divisor-secao">
+        
+        <h2 class="titulo-categoria-unidade">Pratos Deliciosos</h2>
+        <section class="grade-produtos">
+            
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div> 
+                
+                <h3>Acarajé do Recôncavo (Porção)</h3>
+                <img src="imagens/acaraje.png" alt="Acarajé do Recôncavo" class="imagem-prato">
+                <p class="descricao-prato">Quatro bolinhos de massa de feijão-fradinho fritos no azeite de dendê puro, servidos com vatapá, caruru, camarão e salada de vinagrete.</p>
+                
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 32,00</span>
+                    <span class="pontos">+ 6 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Acarajé do Recôncavo"
+                data-preco="32.00"
+                data-unidade="Salvador">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                
+                <h3>Bobó de Camarão Individual</h3>
+                <img src="imagens/bobo.jpg" alt="Bobó de Camarão Individual" class="imagem-prato">
+                <p class="descricao-prato">Camarões frescos refogados em temperos verdes, misturados a um creme denso de mandioca (macaxeira), leite de coco e azeite de dendê.</p>
+                
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 45,90</span>
+                    <span class="pontos">+ 9 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Bobó de Camarão Individual"
+                data-preco="45.90"
+                data-unidade="Salvador">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                
+                <h3>Tapioca de Queijo e Carne Seca</h3>
+                <img src="imagens/tapioca.jpg" alt="Tapioca de Queijo e Carne Seca" class="imagem-prato">
+                <p class="descricao-prato">Nossa tradicional goma de tapioca recheada com carne seca desfiada e queijo coalho levemente maçaricado, cremoso e saboroso na chapa.</p>
+                
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 22,00</span>
+                    <span class="pontos">+ 4 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Tapioca de Queijo e Carne Seca"
+                data-preco="22.00"
+                data-unidade="Salvador">Adicionar ao Pedido
+                </button>
+            </div>
+
+        </section>
+
+        <h2 class="titulo-categoria-unidade">Bebidas Regionalíssimas</h2>
+        <section class="grade-produtos">
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Suco Natural de Cacau</h3>
+                <img src="imagens/sucocacau.png" alt="Suco Natural de Cacau" class="imagem-prato">
+                <p class="descricao-prato">Suco feito com a polpa fresca do cacau colhido na região sul da Bahia. Doce na medida certa, cremoso e muito refrescante.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 9,50</span>
+                    <span class="pontos">+ 1 ponto</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Suco de Cacau"
+                data-preco="9.50"
+                data-unidade="Salvador">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Suco de Umbu</h3>
+                <img src="imagens/sucoumbu.png" alt="Suco de Umbu" class="imagem-prato">
+                <p class="descricao-prato">O autêntico sabor do Sertão. Suco feito com a polpa de umbu fresco, trazendo aquele toque inconfundível.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 8,50</span>
+                    <span class="pontos">+ 1 ponto</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Suco de Umbu"
+                data-preco="8.50"
+                data-unidade="Salvador">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Cajuína Nordestina</h3>
+                <img src="imagens/sucocajuina.png" alt="Cajuína" class="imagem-prato">
+                <p class="descricao-prato">Bebida clarficiada à base de suco de caju, rica em tradição, leve, sem gás e servida gelada para refrescar seu dia.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 7,50</span>
+                    <span class="pontos">+ 1 ponto</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Cajuína Nordestina"
+                data-preco="7.50"
+                data-unidade="Salvador">Adicionar ao Pedido
+                </button>
+            </div>
+
+        </section>
+
+        <h2 class="titulo-categoria-unidade">Sobremesas</h2>
+        <section class="grade-produtos">
+            
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Quindim do Pelô</h3>
+                <img src="imagens/quindim.png" alt="Quindim" class="imagem-prato">
+                <p class="descricao-prato">Doce tradicional à base de gema de ovos, açúcar e bastante coco ralado fresco. Brilhante por fora, macio por dentro</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 12,00</span>
+                    <span class="pontos">+ 2 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Quindim do Pelô"
+                data-preco="12.00"
+                data-unidade="Salvador">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Cocada Baiana</h3>
+                <img src="imagens/cocadabaiana.png" alt="Cocada Baiana" class="imagem-prato">
+                <p class="descricao-prato">Fita de coco queimado cozida lentamente na calda de açúcar. Aquela textura perfeita: puxa-puxa por dentro, firme por fora</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 10,00</span>
+                    <span class="pontos">+ 2 pontos</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Cocada Baiana"
+                data-preco="10.00"
+                data-unidade="Salvador">Adicionar ao Pedido
+                </button>
+            </div>
+
+            <div class="card-produto card-unidade">
+                <div class="imagem-prato-placeholder"></div>
+                <h3>Bolinho de Estudante</h3>
+                <img src="imagens/bolinhoestudante.png" alt="Bolinho de Estudante" class="imagem-prato">
+                <p class="descricao-prato">Massa macia frita douradinha envolvida em açúcar e canela. Aquele sabor caseiro: crocante e fofinho sempre.</p>
+                <div class="info-preco-pontos">
+                    <span class="preco">R$ 6,00</span>
+                    <span class="pontos">+ 1 ponto</span>
+                </div>
+                <button class="btn-acao-primaria btn-add-carrinho"
+                data-nome="Bolinho de Estudante"
+                data-preco="6.00"
+                data-unidade="Salvador">Adicionar ao Pedido
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape-plataforma">
+        <p>&copy; 2026 Rede Raízes do Nordeste. Todos os direitos reservados.</p>
+        <nav class="links-auxiliares">
+            <a href="privacidade.html">Privacidade e LGPD</a>
+        </nav>
+    </footer>
+
+    <script src="authcheck.js"></script>
+    <script src="cardapio.js"></script>
+
+</body>
+</html>

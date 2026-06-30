@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raízes do Nordeste | Tradição e Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <header class="topo-plataforma">
+        <div class="identidade-marca">
+            <h2>RAÍZES <span>DO NORDESTE</span></h2>
+        </div>
+        <nav class="menu-navegacao">
+            <a href="#unidades">Nossas Unidades</a>
+            <a href="#promocoes">Confira!</a>
+            <a href="carrinho.html" id="item-carrinho" class="link-carrinho-topo">Carrinho</a>
+            <a href="login.html" id="link-acesso">Entrar</a>
+            <a href="login.html" id="link-sair" onclick="localStorage.removeItem('usuarioLogado')">Sair</a>
+        </nav>
+    </header>
+
+    <main class="container-principal">
+        
+        <section class="secao-hero">
+            <div class="texto-chamada">
+                <h1 class="titulo-principal">O sabor do Nordeste, <br>no seu tempo.</h1>
+                <p class="texto-principal">
+                    O que começou com Dona Francisca, em Recife, hoje conecta sabores e tradições pelo Nordeste.
+                    Do cuscuz quentinho à tapioca recheada, unimos a nossa cultura regional à velocidade que o seu dia a dia exige.
+                    Tecnologia, afeto e sabor em cada detalhe.
+                </p>
+            </div>
+            <div class="imagem-destaque">
+                <img src="imagens/cuscuz.jpg" alt="Cuscuz Nordestino">
+            </div>
+        </section>
+
+        <hr class="divisor-secao">
+            <section id="unidades" class="secao-unidades">
+                <div class="bloco-cabecalho">
+                    <h2>Conheça Nossas Unidades</h2>
+                    <p>Selecione a unidade mais próxima para conferir o cardápio e fazer seu pedido para retirada rápida.</p>
+                </div>
+
+                <div class="grade-produtos">
+                    <div class="card-produto card-unidade">
+                        <img src="imagens/boa viagem.jpg" alt="Boa Viagem, Recife" class="imagem-unidade">
+                        <h3>Unidade Recife</h3>
+                        <p class="endereco">Av. Boa Viagem, 1000 - Boa Viagem</p>
+                        <p class="status"><strong>Status:</strong> Aberta</p>
+                        <a href="unidade-recife.html" class="btn-acao-primaria btn-link-bloco">Ver Unidade</a>
+                    </div>
+
+                    <div class="card-produto card-unidade">
+                        <img src="imagens/pelourinho.jpg" alt="Pelourinho, Salvador" class="imagem-unidade">
+                        <h3>Unidade Salvador</h3>
+                        <p class="endereco">Rua das Laranjeiras, 45 - Pelourinho</p>
+                        <p class="status"><strong>Status:</strong> Aberta</p>
+                        <a href="unidade-salvador.html" class="btn-acao-primaria btn-link-bloco">Ver Unidade</a>
+                    </div>
+
+                    <div class="card-produto card-unidade card-indisponivel">
+                        <img src="imagens/olimpio campos.jpg" alt="Praça Olímpio Campos, Aracaju" class="imagem-unidade">
+                        <h3>Unidade Aracaju</h3>
+                        <p class="endereco">Praça Olímpio Campos, 60 - Centro</p>
+                        <p class="status"><strong>Status:</strong> Em Breve</p>
+                        <a href="#" class="btn-acao-primaria btn-link-bloco btn-desativado">Em Breve</a>
+                    </div>
+                </div>
+            </section>
+        <hr class="divisor-secao">
+
+        <section id="promocoes" class="secao-promocoes">
+            <div class="bloco-cabecalho">
+                <h2>Campanha de Inauguração</h2>
+                <p>Aproveite o melhor da nossa terra com descontos especiais.</p>
+            </div>
+
+            <div class="grade-promocoes">
+                <div class="card-promo">
+                    <span class="tag-promo tag-laranja">INAUGURAÇÃO</span>
+                    <h4>Ganhe Pontos fazendo Compras</h4>
+                    <p>A cada R$ 5 ganhe pontos que podem ser trocados por descontos.</p>
+                </div>
+                
+                <div class="card-promo">
+                    <span class="tag-promo tag-marrom">PROGRAMA FIDELIDADE</span>
+                    <h4>Acumule Pontos e Ganhe Benefícios</h4>
+                    <p>A cada nova compra, ganhe pontos. Crie sua conta e aproveite!</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape-plataforma">
+        <p>&copy; 2026 Rede Raízes do Nordeste. Todos os direitos reservados.</p>
+        <nav class="links-auxiliares">
+            <a href="privacidade.html">Privacidade e LGPD</a>
+        </nav>
+    </footer>
+
+    <script src="authcheck.js"></script>
+
+</body>
+</html>

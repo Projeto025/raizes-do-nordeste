@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raízes do Nordeste - Painel de Acesso</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <header class="topo-plataforma">
+        <div class="identidade-marca">
+            <h2>RAÍZES DO NORDESTE</h2>
+        </div>
+        <nav class="menu-navegacao">
+            <a href="index.html">Início</a>
+        </nav>
+    </header>
+
+    <main class="container-principal">
+        <section class="conteudo-introducao">
+            <h1 class="titulo-marca">Tradição Nordestina na Velocidade Urbana</h1>
+            <p class="texto-institucional">
+                Seja bem-vindo ao sistema integrado da Rede Raízes do Nordeste. 
+                Aqui você pode realizar pedidos para retirada rápida (pick-up), 
+                acumular pontos no nosso programa de fidelidade e gerenciar sua experiência.
+            </p>
+        </section>
+
+        <section class="card-login-customizado">
+            <div class="cabecalho-formulario">
+                <h3>Acesse sua Conta</h3>
+                <p class="subtitulo-formulario">Perfil atual: <strong id="tipo-usuario">Cliente</strong></p>
+            </div>
+
+            <form id="form-login" class="formulario-acesso">
+                <div class="grupo-campo">
+                    <label for="campo-email">E-mail Cadastrado</label>
+                    <input type="email" id="campo-email" placeholder="nome@exemplo.com" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="campo-senha">Senha de Acesso</label>
+                    <input type="password" id="campo-senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <button type="submit" class="btn-acao-primaria">Entrar</button>
+            </form>
+
+            <div class="controles-alternancia">
+                <button id="toggle-admin" class="btn-link-secundario">Acessar como Admin</button>
+            </div>
+
+            <div class="alternativa-login">
+                <p>Ainda não faz parte? <a href="cadastro.html" class="link-cadastro">Crie sua conta aqui</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape-plataforma">
+        <p>&copy; 2026 Rede Raízes do Nordeste. Todos os direitos reservados.</p>
+        <nav class="links-auxiliares">
+            <a href="privacidade.html">Privacidade e LGPD</a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

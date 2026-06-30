@@ -1,0 +1,95 @@
+/* =========================================
+   RESPONSIVE.CSS - Raízes do Nordeste
+   ========================================= */
+
+/* Ajustes para dispositivos móveis (Celulares até 600px) */
+@media (max-width: 600px) {
+    .topo-plataforma {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .menu-navegacao {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .menu-navegacao a {
+        margin-left: 0;
+    }
+
+    .container-principal {
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .secao-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagem-destaque img {
+        max-width: 100%;
+    }
+    
+    .card-login-customizado {
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+
+    .grade-produtos {
+        grid-template-columns: 1fr; /* Unidades empilhadas */
+    }
+
+    .grade-promocoes {
+        flex-direction: column; /* Promos empilhadas */
+    }
+
+    .secao-promocoes {
+        padding: 20px;
+    }
+}
+
+/* Ajustes para tablets e telas médias (601px a 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container-principal {
+        max-width: 800px;
+    }
+
+    .secao-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .grade-produtos {
+        grid-template-columns: repeat(2, 1fr); /* Grades em 2 colunas */
+    }
+}
+
+/* Ajustes específicos para o Totem (Telas em pé) */
+@media screen and (orientation: portrait) and (max-width: 800px) {
+    .btn-acao-primaria {
+        padding: 20px; 
+        font-size: 1.2rem;
+    }
+}
+
+/* ==========================================
+   RESPONSIVIDADE - UNIDADE SALVADOR
+   ========================================== */
+@media (max-width: 768px) {
+    .hero-unidade-especifica {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+    
+    .imagem-hero-unidade {
+        height: 240px;
+    }
+}

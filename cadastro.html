@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente | Raízes do Nordeste</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+    <header class="topo-plataforma">
+        <div class="identidade-marca">
+            <h2>RAÍZES DO NORDESTE</h2>
+        </div>
+        <nav class="menu-navegacao">
+            <a href="index.html">Início</a>
+        </nav>
+    </header>
+
+    <main class="container-principal">
+        <section class="conteudo-introducao">
+            <h1 class="titulo-marca">Faça parte da nossa Rede</h1>
+            <p class="texto-institucional">
+                Cadastre-se para acompanhar seus pedidos em tempo real e acumular pontos no programa de fidelidade que se transformam em descontos deliciosos.
+            </p>
+        </section>
+
+        <section class="card-login-customizado">
+            <div class="cabecalho-formulario">
+                <h3>Crie sua Conta</h3>
+                <p class="subtitulo-formulario">Leva menos de dois minutos.</p>
+            </div>
+
+            <form id="form-cadastro" class="formulario-acesso">
+                
+                <div class="grupo-campo">
+                    <label for="cadastro-nome">Nome Completo</label>
+                    <input type="text" id="cadastro-nome" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="cadastro-cpf">CPF (Para pontos de fidelidade)</label>
+                    <input type="text" id="cadastro-cpf" placeholder="000.000.000-00" maxlength="14" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="cadastro-telefone">Telefone / WhatsApp</label>
+                    <input type="tel" id="cadastro-telefone" placeholder="(71) 99999-9999" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="cadastro-email">E-mail</label>
+                    <input type="email" id="cadastro-email" placeholder="seu-email@exemplo.com" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="cadastro-senha">Crie uma Senha</label>
+                    <input type="password" id="cadastro-senha" placeholder="Mínimo 6 caracteres" minlength="6" required>
+                </div>
+
+                <div class="grupo-campo-checkbox">
+                    <input type="checkbox" id="aceite-lgpd" required>
+                    <label for="aceite-lgpd" class="label-checkbox">
+                        Declaro que li e aceito as <a href="privacidade.html" target="_blank">Políticas de Privacidade</a> e autorizo o tratamento dos meus dados para fins de processamento de pedidos conforme a LGPD.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-acao-primaria">Finalizar Cadastro</button>
+            </form>
+
+            <div class="alternativa-login">
+                <p>Já tem uma conta? <a href="login.html" class="link-cadastro">Faça login aqui</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape-plataforma">
+        <p>&copy; 2026 Rede Raízes do Nordeste. Todos os direitos reservados.</p>
+        <nav class="links-auxiliares">
+            <a href="privacidade.html">Privacidade e LGPD</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
